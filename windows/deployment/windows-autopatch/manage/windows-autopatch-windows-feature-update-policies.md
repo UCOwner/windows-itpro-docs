@@ -37,6 +37,8 @@ These policies control the minimum target version of Windows that a device is me
 | Setting name | Test | First | Fast | Broad |
 | ----- | ----- | ----- | ----- | ----- |
 | Included groups | Modern Workplace Devices-Windows Autopatch-Test  | Modern Workplace Devices-Windows Autopatch-First | Modern Workplace Devices-Windows Autopatch-Fast | Modern Workplace Devices-Windows Autopatch-Broad |
+> [!NOTE]
+> As of April 2025, when we removed the requirement to enroll your tenant in Windows Autopatch, we will not create any default policies anymore for customers using Windows Autopatch. We will still support exsisting customers until the EOL of Windows 10. We will not uplift existing policies to Windows 11.
 
 ## Default release policy configuration
 
